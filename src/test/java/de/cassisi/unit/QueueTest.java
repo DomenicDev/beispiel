@@ -14,14 +14,6 @@ public class QueueTest {
         this.queue = new Queue(3);
     }
 
-    private void printQueue() {
-        for (int i = 0; i < queue.queue.length; i++) {
-            System.out.print(queue.queue[i] + ",  ");
-        }
-        System.out.println();
-    }
-
-
     @Test (expected = IllegalStateException.class)
     public void test() {
         queue.dequeue();
