@@ -1,4 +1,4 @@
-package de.cassisi;
+package de.cassisi.unit;
 
 import java.util.Scanner;
 
